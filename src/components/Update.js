@@ -22,7 +22,7 @@ export const Update = () => {
   const handleUpdate = (e) => {
     e.preventDefault();
     axios
-      .put(`http://localhost:5000/api/v1/employee/${id}`, {
+      .put(`https://bend-crud-node-express-kb0t.onrender.com/api/v1/employee/${id}`, {
         ename: ename,
         email: email,
         emobile: emobile,
